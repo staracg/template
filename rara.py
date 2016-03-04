@@ -11,7 +11,7 @@ def local():
 	libc = ELF("local")
 	r = remote("localhost", 5566)
 
-def fuck():
+def rara():
 	global libc, r
 	libc = ELF("libc.so.6")
 	r = remote("52.68.53.28", 56746)
